@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "Powered Up Electric Inc.",
+    "phone": "+14026722041",
+    "category": "electrician",
+    "city": "Omaha",
+    "state": "NE"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-trust-navy",
+      "categoryGroup": "roofing",
+      "name": "Trust Navy",
+      "recipeFile": "roofing/trust-navy.astro",
+      "colors": {
+        "primary": "#2C4563",
+        "primaryDark": "#1B2F45",
+        "primaryLight": "#D4E0ED",
+        "secondary": "#3D5A80",
+        "accent": "#3D6B5A",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#2C4563",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "700",
+        "bodyFont": "Source Sans 3",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Omaha's Trusted Electricians",
+      "heroSubline": "Powered Up Electric Inc. delivers reliable electrical services across Omaha. From routine repairs to complex installations, we've got you covered.",
+      "aboutTitle": "Powering Omaha, One Circuit at a Time",
+      "aboutText": [
+        "Powered Up Electric Inc. was founded in 2012 with a simple mission: to provide Omaha with dependable and fairly priced electrical services. We started small, wiring homes in Dundee and Aksarben, and quickly built a reputation for quality work and honest communication.",
+        "We believe in doing things right the first time. Our team emphasizes clear communication, meticulous workmanship, and a commitment to safety on every project. We treat every home and business as if it were our own, ensuring reliable and lasting electrical solutions.",
+        "As a locally owned and operated business, we're deeply invested in the Omaha community. We actively support local initiatives and strive to build lasting relationships with our clients. Our success is tied to the success of our neighbors, and we're proud to contribute to a brighter, more powered-up Omaha."
+      ],
+      "valueProps": [
+        {
+          "title": "Experienced Professionals",
+          "description": "Our team consists of licensed and highly skilled electricians with years of experience in the Omaha area."
+        },
+        {
+          "title": "Reliable Service",
+          "description": "We show up on time, prepared to get the job done right. Count on us for dependable electrical solutions."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "We provide clear and transparent pricing with no hidden fees. You'll know exactly what to expect before we start any work."
+        },
+        {
+          "title": "Safety First",
+          "description": "We prioritize safety in every project, adhering to the highest industry standards and local codes."
+        }
+      ],
+      "ctaHeadline": "Need Electrical Help?",
+      "ctaSubline": "Call Powered Up Electric Inc. today for a free consultation and experience the difference."
+    },
+    "services": [
+      {
+        "slug": "electrical-repair",
+        "name": "Electrical Repair Services",
+        "shortDescription": "Fast, reliable electrical repairs for your Omaha home or business.",
+        "description": "From flickering lights to sparking outlets, electrical problems can be frustrating and dangerous. Powered Up Electric Inc. provides comprehensive electrical repair services throughout Omaha. We quickly diagnose the issue and provide efficient, lasting solutions. Our experienced electricians are equipped to handle any repair, big or small, ensuring the safety and functionality of your electrical system.\n\nWe understand the urgency of electrical problems, especially with Omaha's severe weather patterns, which can cause power surges and outages. That's why we offer prompt and reliable service, getting your electrical system back up and running as quickly as possible. Whether you're experiencing a minor inconvenience or a major electrical emergency, our team is ready to respond.\n\nOur repair services include troubleshooting, wiring repairs, outlet and switch replacements, circuit breaker repairs, and more. We use quality materials and proven techniques to ensure the durability and safety of our repairs. Don't let electrical issues disrupt your life – contact Powered Up Electric Inc. for expert repair services you can trust.",
+        "process": [
+          "Step 1: Contact us to describe the electrical issue you're experiencing.",
+          "Step 2: We'll schedule a convenient appointment time for an electrician to assess the problem.",
+          "Step 3: Our electrician will diagnose the issue and provide a clear explanation of the necessary repairs.",
+          "Step 4: Upon your approval, we'll complete the repairs efficiently and safely, ensuring your satisfaction."
+        ],
+        "benefits": [
+          "Fast and reliable repairs",
+          "Experienced and licensed electricians",
+          "Upfront and transparent pricing",
+          "Ensured safety and functionality"
+        ],
+        "faq": [
+          {
+            "question": "How quickly can you respond to an electrical emergency?",
+            "answer": "We prioritize emergency calls and strive to respond as quickly as possible, often within the hour, depending on our current workload and your location in the Omaha metro area."
+          },
+          {
+            "question": "Are your electricians licensed and insured?",
+            "answer": "Yes, all of our electricians are fully licensed and insured, providing you with peace of mind and protection."
+          },
+          {
+            "question": "What types of electrical repairs do you handle?",
+            "answer": "We handle a wide range of electrical repairs, including wiring problems, outlet and switch issues, circuit breaker malfunctions, lighting repairs, and more."
+          }
+        ]
+      },
+      {
+        "slug": "electrical-installation",
+        "name": "Electrical Installation Services",
+        "shortDescription": "Expert electrical installations for new construction and remodeling projects in Omaha.",
+        "description": "Planning a new construction project or remodeling your Omaha home? Powered Up Electric Inc. provides comprehensive electrical installation services to meet your needs. From wiring new homes to upgrading electrical panels, we have the expertise and experience to handle any installation project.\n\nWe understand the importance of proper electrical planning and installation, especially in Omaha's diverse housing stock. Whether you're building a modern home in a new development or renovating a historic property in Dundee, we ensure your electrical system meets all codes and regulations. Our team works closely with homeowners, builders, and contractors to deliver customized solutions that fit your specific requirements.\n\nOur installation services include wiring, lighting installation, outlet and switch installation, electrical panel upgrades, and more. We use quality materials and follow industry best practices to ensure the safety and reliability of your electrical system. Trust Powered Up Electric Inc. for expert electrical installations that power your home or business for years to come.",
+        "process": [
+          "Step 1: Contact us to discuss your electrical installation needs and project details.",
+          "Step 2: We'll provide a detailed proposal with transparent pricing and a timeline for completion.",
+          "Step 3: Our experienced electricians will perform the installation according to industry best practices and local codes.",
+          "Step 4: We'll conduct a thorough inspection to ensure the safety and functionality of the installation."
+        ],
+        "benefits": [
+          "Expert electrical planning and installation",
+          "Compliance with codes and regulations",
+          "Customized solutions for your project",
+          "Safe and reliable electrical system"
+        ],
+        "faq": [
+          {
+            "question": "Do you handle electrical installations for new construction projects?",
+            "answer": "Yes, we have extensive experience with electrical installations for new construction projects in Omaha. We work closely with builders and contractors to ensure seamless integration of the electrical system."
+          },
+          {
+            "question": "Can you upgrade my electrical panel to accommodate increased power demands?",
+            "answer": "Absolutely. We can assess your current electrical panel and recommend an upgrade if necessary to meet your power needs."
+          },
+          {
+            "question": "What types of lighting installations do you offer?",
+            "answer": "We offer a wide range of lighting installation services, including recessed lighting, pendant lighting, landscape lighting, and more."
+          }
+        ]
+      },
+      {
+        "slug": "lighting-services",
+        "name": "Lighting Design & Installation",
+        "shortDescription": "Enhance your Omaha property with custom lighting solutions.",
+        "description": "Transform your home or business with expertly designed and installed lighting. Powered Up Electric Inc. offers comprehensive lighting services in Omaha, from design consultation to complete installation. We understand how lighting can impact ambiance, functionality, and energy efficiency.\n\nWhether you're looking to brighten up your living space, create a welcoming atmosphere for your business, or enhance your home's curb appeal, we can help. We offer a wide range of lighting options, including recessed lighting, pendant lighting, track lighting, landscape lighting, and more. Our team stays up-to-date on the latest lighting trends and technologies, ensuring you get the best possible solutions.\n\nWe also specialize in energy-efficient lighting solutions, such as LED lighting, which can save you money on your energy bills and reduce your carbon footprint. Our lighting experts can assess your current lighting setup and recommend energy-saving upgrades. Let Powered Up Electric Inc. illuminate your world with beautiful and efficient lighting solutions.",
+        "process": [
+          "Step 1: Schedule a consultation to discuss your lighting goals and preferences.",
+          "Step 2: We'll create a custom lighting design plan that meets your needs and budget.",
+          "Step 3: Our skilled electricians will install the lighting according to the design plan.",
+          "Step 4: We'll conduct a final inspection to ensure the lighting is functioning properly and meets your expectations."
+        ],
+        "benefits": [
+          "Custom lighting design",
+          "Wide range of lighting options",
+          "Energy-efficient solutions",
+          "Enhanced ambiance and functionality"
+        ],
+        "faq": [
+          {
+            "question": "Can you help me choose the right lighting for my home?",
+            "answer": "Absolutely. We offer expert lighting design consultations to help you select the perfect lighting fixtures and placement for your space."
+          },
+          {
+            "question": "Do you install outdoor lighting?",
+            "answer": "Yes, we install a variety of outdoor lighting options, including landscape lighting, security lighting, and patio lighting."
+          },
+          {
+            "question": "What are the benefits of LED lighting?",
+            "answer": "LED lighting is more energy-efficient, longer-lasting, and produces less heat than traditional lighting options."
+          }
+        ]
+      },
+      {
+        "slug": "electrical-panel-services",
+        "name": "Electrical Panel Upgrades & Repairs",
+        "shortDescription": "Ensure the safety and reliability of your electrical system with our panel services.",
+        "description": "Your electrical panel is the heart of your electrical system. Powered Up Electric Inc. offers comprehensive electrical panel services in Omaha, including upgrades, repairs, and replacements. We ensure your panel is functioning safely and efficiently, providing reliable power to your home or business.\n\nIf you're experiencing frequent circuit breaker trips, flickering lights, or other electrical problems, it may be a sign that your electrical panel needs an upgrade. Older panels may not be able to handle the increased power demands of modern appliances and electronics. Upgrading your panel can improve the safety and reliability of your electrical system and prevent potential hazards.\n\nOur experienced electricians can assess your current electrical panel and recommend the best solution for your needs. We handle all types of panel services, from minor repairs to complete replacements. Trust Powered Up Electric Inc. to keep your electrical panel in top condition.",
+        "process": [
+          "Step 1: Schedule an inspection to assess your electrical panel's condition and performance.",
+          "Step 2: We'll recommend the appropriate panel services, whether it's a repair, upgrade, or replacement.",
+          "Step 3: Our licensed electricians will perform the necessary work safely and efficiently.",
+          "Step 4: We'll conduct a thorough inspection to ensure the panel is functioning properly and meets safety standards."
+        ],
+        "benefits": [
+          "Improved safety and reliability",
+          "Increased power capacity",
+          "Prevention of electrical hazards",
+          "Compliance with safety standards"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my electrical panel needs an upgrade?",
+            "answer": "Signs that your panel may need an upgrade include frequent circuit breaker trips, flickering lights, and outdated panel design."
+          },
+          {
+            "question": "Is it safe to attempt electrical panel repairs myself?",
+            "answer": "No. Electrical panel work is dangerous and should only be performed by a qualified electrician."
+          },
+          {
+            "question": "How long does it take to upgrade an electrical panel?",
+            "answer": "The duration of an electrical panel upgrade depends on the complexity of the project, but it typically takes a few hours to a full day."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-electrical-services",
+        "name": "Commercial Electrical Services",
+        "shortDescription": "Comprehensive electrical solutions for Omaha businesses.",
+        "description": "Powered Up Electric Inc. provides a full suite of commercial electrical services to businesses throughout Omaha. We understand the unique electrical needs of commercial properties, from office buildings to retail spaces to industrial facilities. Our experienced electricians are equipped to handle any commercial electrical project, big or small.\n\nWe offer a wide range of services, including electrical installations, repairs, maintenance, and upgrades. We also specialize in energy-efficient solutions that can help your business save money on energy costs. Our team is committed to providing reliable and cost-effective electrical services that keep your business running smoothly.\n\nFrom new construction wiring to lighting upgrades to emergency repairs, Powered Up Electric Inc. is your trusted partner for all your commercial electrical needs. We prioritize safety and efficiency in every project, ensuring the highest quality workmanship and customer satisfaction.",
+        "process": [
+          "Step 1: Contact us to discuss your commercial electrical needs and project requirements.",
+          "Step 2: We'll provide a detailed proposal with transparent pricing and a timeline for completion.",
+          "Step 3: Our experienced electricians will perform the work efficiently and safely, minimizing disruption to your business.",
+          "Step 4: We'll conduct a final inspection to ensure the electrical system is functioning properly and meets your expectations."
+        ],
+        "benefits": [
+          "Reliable and cost-effective solutions",
+          "Experienced commercial electricians",
+          "Compliance with codes and regulations",
+          "Minimized business disruption"
+        ],
+        "faq": [
+          {
+            "question": "Do you offer emergency electrical services for businesses?",
+            "answer": "Yes, we offer 24/7 emergency electrical services to businesses in Omaha. We understand that electrical problems can disrupt your operations, and we're ready to respond quickly."
+          },
+          {
+            "question": "Can you help me reduce my business's energy costs?",
+            "answer": "Absolutely. We offer a variety of energy-efficient electrical solutions, such as LED lighting and energy management systems, that can help you save money on your energy bills."
+          },
+          {
+            "question": "Do you handle electrical inspections for commercial properties?",
+            "answer": "Yes, we can perform comprehensive electrical inspections to ensure your commercial property is up to code and safe."
+          }
+        ]
+      },
+      {
+        "slug": "generator-services",
+        "name": "Generator Installation & Repair",
+        "shortDescription": "Keep your Omaha home powered during outages with our generator services.",
+        "description": "Omaha's unpredictable weather can lead to power outages, leaving your home or business in the dark. Powered Up Electric Inc. offers generator installation and repair services to ensure you have a reliable backup power source when you need it most.\n\nWe offer a wide range of generators to meet your specific needs, from portable generators to whole-house standby generators. Our experienced technicians can help you choose the right generator for your home or business and install it safely and efficiently. We also provide generator repair and maintenance services to keep your generator running smoothly for years to come.\n\nDon't let power outages disrupt your life. Contact Powered Up Electric Inc. today to learn more about our generator services and how we can help you stay powered up during any situation.",
+        "process": [
+          "Step 1: Schedule a consultation to assess your backup power needs and determine the right generator for your home or business.",
+          "Step 2: We'll provide a detailed proposal with transparent pricing and a timeline for installation.",
+          "Step 3: Our licensed technicians will install the generator according to manufacturer specifications and local codes.",
+          "Step 4: We'll provide ongoing maintenance and repair services to keep your generator in top condition."
+        ],
+        "benefits": [
+          "Reliable backup power",
+          "Protection from power outages",
+          "Peace of mind during storms",
+          "Increased home value"
+        ],
+        "faq": [
+          {
+            "question": "What size generator do I need for my home?",
+            "answer": "The size of generator you need depends on your power requirements. We can assess your needs and recommend the appropriate generator size."
+          },
+          {
+            "question": "How often should I have my generator serviced?",
+            "answer": "We recommend having your generator serviced annually to ensure it's running properly."
+          },
+          {
+            "question": "Do I need a permit to install a generator?",
+            "answer": "Yes, in most cases you will need a permit to install a generator. We can help you obtain the necessary permits."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Omaha",
+        "slug": "omaha-ne",
+        "state": "NE",
+        "content": "Powered Up Electric Inc. is proud to provide comprehensive electrical services to the residents and businesses of Omaha, Nebraska. From routine maintenance and repairs to complex installations and upgrades, our team of licensed and experienced electricians is dedicated to ensuring the safety and efficiency of your electrical systems. We understand the unique needs of Omaha properties, whether you own a historic home in Dundee or a modern office building downtown.\n\nWe are committed to providing prompt, reliable, and affordable electrical solutions tailored to your specific requirements. Our services include everything from troubleshooting electrical issues and replacing outdated wiring to installing energy-efficient lighting and surge protection systems. We prioritize customer satisfaction and strive to exceed your expectations with every project we undertake. Trust Powered Up Electric Inc. for all your electrical needs in Omaha.\n\nWe're familiar with all the local codes and regulations in Omaha, ensuring that our work is always up to standard.",
+        "localContext": "Omaha is a vibrant city known for its diverse neighborhoods, thriving business community, and rich cultural attractions. As a growing metropolitan area, Omaha experiences a variety of electrical needs, from residential upgrades to commercial expansions.",
+        "nearbyAreas": [
+          "Council Bluffs",
+          "Bellevue",
+          "Papillion"
+        ]
+      },
+      {
+        "city": "Bellevue",
+        "slug": "bellevue-ne",
+        "state": "NE",
+        "content": "Powered Up Electric Inc. extends its expert electrical services to the growing community of Bellevue, Nebraska. As a trusted electrical contractor, we cater to the residential and commercial needs of Bellevue residents, offering a wide range of services from basic repairs to complete electrical system installations. We understand the unique challenges and opportunities presented by Bellevue's mix of established neighborhoods and new developments.\n\nOur team is equipped to handle any electrical project, big or small, with professionalism and efficiency. Whether you need to upgrade your home's electrical panel, install new lighting fixtures, or troubleshoot a complex electrical issue in your business, we have the expertise and resources to get the job done right. We are committed to providing reliable and affordable electrical solutions that meet the specific needs of our Bellevue customers.\n\nFrom wiring new homes to servicing established businesses, we're here to help Bellevue residents.",
+        "localContext": "Bellevue is a dynamic city located just south of Omaha, known for its strong military presence, family-friendly atmosphere, and growing business sector. The electrical needs of Bellevue range from residential upgrades to commercial developments.",
+        "nearbyAreas": [
+          "Papillion",
+          "La Vista",
+          "Omaha"
+        ]
+      },
+      {
+        "city": "Papillion",
+        "slug": "papillion-ne",
+        "state": "NE",
+        "content": "Powered Up Electric Inc. is proud to serve the thriving community of Papillion, Nebraska, with top-notch electrical services. We understand the unique needs of Papillion residents and businesses, offering a comprehensive range of electrical solutions to ensure the safety and efficiency of your properties. From routine maintenance to complex installations, our team of licensed electricians is dedicated to providing exceptional service.\n\nWe are committed to delivering prompt, reliable, and affordable electrical services tailored to your specific requirements. Whether you need to upgrade your home's electrical panel, install new lighting fixtures, or troubleshoot an electrical issue in your business, we have the expertise and resources to get the job done right. We prioritize customer satisfaction and strive to exceed your expectations with every project we undertake.\n\nWe know the area well and understand the common electrical problems that arise in Papillion homes and businesses.",
+        "localContext": "Papillion is a rapidly growing city known for its excellent schools, family-friendly environment, and thriving business community. As a dynamic community, Papillion experiences a diverse range of electrical needs.",
+        "nearbyAreas": [
+          "La Vista",
+          "Bellevue",
+          "Gretna"
+        ]
+      },
+      {
+        "city": "La Vista",
+        "slug": "la-vista-ne",
+        "state": "NE",
+        "content": "Powered Up Electric Inc. is your trusted electrical service provider in La Vista, Nebraska. We offer a full spectrum of electrical solutions to meet the needs of La Vista residents and businesses. Our team of experienced electricians is dedicated to providing safe, reliable, and affordable electrical services.\n\nWe understand the importance of having a dependable electrical system, and we are committed to ensuring that your electrical needs are met with professionalism and expertise. Whether you need routine maintenance, emergency repairs, or new installations, we are here to help. We pride ourselves on our customer service and strive to exceed your expectations with every project.\n\nWe're familiar with the types of homes and businesses in La Vista, and can quickly diagnose and fix any electrical issue.",
+        "localContext": "La Vista is a growing city known for its business-friendly environment and convenient location. The electrical needs of La Vista range from commercial installations to residential upgrades.",
+        "nearbyAreas": [
+          "Papillion",
+          "Ralston",
+          "Omaha"
+        ]
+      },
+      {
+        "city": "Council Bluffs",
+        "slug": "council-bluffs-ne",
+        "state": "NE",
+        "content": "Powered Up Electric Inc. is pleased to extend its electrical services to Council Bluffs, Iowa, located just across the river from Omaha. We provide comprehensive electrical solutions for both residential and commercial properties in Council Bluffs. Our team of licensed electricians is committed to ensuring the safety and efficiency of your electrical systems.\n\nWhether you need routine maintenance, emergency repairs, or new installations, Powered Up Electric Inc. is here to help. We understand the unique challenges and opportunities presented by Council Bluffs' mix of historic homes and modern businesses. We are dedicated to providing reliable and affordable electrical services that meet the specific needs of our Council Bluffs customers.\n\nWe are up-to-date on all Iowa electrical codes and regulations.",
+        "localContext": "Council Bluffs is a vibrant city with a rich history and a growing economy. Located in Iowa, just across the Missouri River from Omaha, it shares a metropolitan area with Nebraska. The electrical needs of Council Bluffs reflect its diverse mix of residential and commercial properties.",
+        "nearbyAreas": [
+          "Omaha",
+          "Carter Lake",
+          "Crescent"
+        ]
+      },
+      {
+        "city": "Gretna",
+        "slug": "gretna-ne",
+        "state": "NE",
+        "content": "Powered Up Electric Inc. proudly serves the growing community of Gretna, Nebraska, with professional and reliable electrical services. We understand the unique needs of Gretna residents and businesses and offer a comprehensive range of electrical solutions to ensure the safety and efficiency of your properties. From new home wiring to commercial lighting upgrades, our team of licensed electricians is dedicated to providing exceptional service.\n\nWe are committed to delivering prompt, reliable, and affordable electrical services tailored to your specific requirements. Whether you need to upgrade your home's electrical panel, install new lighting fixtures, or troubleshoot an electrical issue in your business, we have the expertise and resources to get the job done right. We prioritize customer satisfaction and strive to exceed your expectations with every project we undertake.\n\nWe understand the electrical needs of new constructions and older homes in Gretna.",
+        "localContext": "Gretna is a rapidly growing city known for its excellent schools, family-friendly environment, and proximity to Omaha. As a developing community, Gretna experiences a range of electrical needs.",
+        "nearbyAreas": [
+          "Papillion",
+          "Elkhorn",
+          "Waterloo"
+        ]
+      },
+      {
+        "city": "Elkhorn",
+        "slug": "elkhorn-ne",
+        "state": "NE",
+        "content": "Powered Up Electric Inc. is dedicated to providing top-quality electrical services to the residents and businesses of Elkhorn, Nebraska. As a growing community within the Omaha metropolitan area, Elkhorn presents unique electrical needs, and we are equipped to handle them all. From residential wiring and lighting to commercial electrical systems, our licensed electricians are committed to ensuring your safety and satisfaction.\n\nWe offer a comprehensive range of electrical services, including repairs, installations, upgrades, and maintenance. Whether you need to troubleshoot an electrical problem, install new outlets, or upgrade your electrical panel, we have the expertise and resources to get the job done right. We pride ourselves on our prompt, reliable, and affordable services, and we strive to exceed your expectations with every project.\n\nWe have extensive experience working with the variety of homes and businesses in Elkhorn.",
+        "localContext": "Elkhorn is a thriving community known for its excellent schools and family-friendly atmosphere. As a growing area, Elkhorn experiences a diverse range of electrical needs, from new construction to residential upgrades.",
+        "nearbyAreas": [
+          "Omaha",
+          "Waterloo",
+          "Bennington"
+        ]
+      },
+      {
+        "city": "Ralston",
+        "slug": "ralston-ne",
+        "state": "NE",
+        "content": "Powered Up Electric Inc. is proud to offer our expert electrical services to the city of Ralston, Nebraska. We understand the unique character of Ralston and are dedicated to providing reliable and affordable electrical solutions to its residents and businesses. From simple repairs to complex installations, our team of licensed electricians is committed to ensuring your electrical systems are safe and efficient.\n\nWe offer a wide range of electrical services, including troubleshooting, repairs, installations, and upgrades. Whether you need to fix a faulty outlet, install new lighting, or upgrade your electrical panel, we have the expertise and resources to get the job done right. We are committed to providing exceptional customer service and exceeding your expectations with every project.\n\nWe are familiar with the specific electrical needs of Ralston's homes and businesses.",
+        "localContext": "Ralston is a unique city with a strong sense of community and a mix of residential and commercial properties. Its central location within the Omaha metropolitan area makes it a convenient place to live and work. The electrical needs of Ralston are diverse, ranging from residential repairs to commercial installations.",
+        "nearbyAreas": [
+          "La Vista",
+          "Omaha",
+          "Boys Town"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Electrical Panel Upgrade",
+        "text": "Powered Up Electric was fantastic! Our old electrical panel was outdated and causing problems. They upgraded it quickly and efficiently, and the price was very reasonable. We feel much safer now, especially with Omaha's summer storms.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "David B.",
+        "rating": 4,
+        "service": "Lighting Installation",
+        "text": "We had Powered Up Electric install new recessed lighting in our kitchen. The electrician was professional and did a great job. There was a small issue with one of the lights, but they came back promptly to fix it. Overall, very satisfied.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Jennifer K.",
+        "rating": 5,
+        "service": "Electrical Repair",
+        "text": "Our power went out during a blizzard, and Powered Up Electric was the only company that answered the phone! They arrived quickly and fixed the problem in no time. We were so grateful for their prompt and reliable service.",
+        "date": "2024-02-05"
+      },
+      {
+        "name": "Robert L.",
+        "rating": 5,
+        "service": "Commercial Electrical Services",
+        "text": "Powered Up Electric handles all of the electrical work for our business. They are always responsive, professional, and do excellent work. I highly recommend them to any business in the Omaha area.",
+        "date": "2024-07-10"
+      },
+      {
+        "name": "Emily S.",
+        "rating": 5,
+        "service": "Generator Installation",
+        "text": "We had Powered Up Electric install a whole-house generator, and it's been a lifesaver! We haven't had to worry about power outages since. The installation was smooth and professional, and they explained everything clearly.",
+        "date": "2025-01-28"
+      },
+      {
+        "name": "Michael T.",
+        "rating": 4,
+        "service": "Outlet Repair",
+        "text": "I had several outlets that weren't working, and Powered Up Electric fixed them quickly and affordably. The electrician was friendly and knowledgeable. I would definitely use them again.",
+        "date": "2024-09-03"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Powered Up Electric | Omaha Electrician",
+        "description": "Omaha's trusted electricians. Expert electrical repairs, installations, and more. Licensed & insured. Call today!"
+      },
+      "about": {
+        "title": "About Powered Up Electric Inc.",
+        "description": "Learn about Powered Up Electric Inc., Omaha's leading electrical service provider. Reliable, experienced, and community-focused."
+      },
+      "services": {
+        "title": "Omaha Electrical Services",
+        "description": "Comprehensive electrical services in Omaha. Repairs, installations, lighting, panel upgrades, and more. Contact us today!"
+      },
+      "contact": {
+        "title": "Contact Powered Up Electric",
+        "description": "Contact Powered Up Electric for reliable electrical services in Omaha. Get a free consultation and expert advice."
+      },
+      "reviews": {
+        "title": "Powered Up Electric Reviews",
+        "description": "Read reviews for Powered Up Electric in Omaha. See what our satisfied customers are saying about our electrical services."
+      },
+      "service-areas": {
+        "title": "Service Areas",
+        "description": "Service areas for Powered Up Electric in Omaha, NE. Providing expert electrical services to Omaha and surrounding communities."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "electrical-repair": "/images/service-electrical-repair.webp",
+      "electrical-installation": "/images/service-electrical-installation.webp",
+      "lighting-services": "/images/service-lighting-services.webp",
+      "electrical-panel-services": "/images/service-electrical-panel-services.webp",
+      "commercial-electrical-services": "/images/service-commercial-electrical-services.webp",
+      "generator-services": "/images/service-generator-services.webp"
+    },
+    "servicesResponsive": {
+      "electrical-repair": {
+        "src": "/images/service-electrical-repair.webp",
+        "srcset": "/images/service-electrical-repair-400w.webp 400w, /images/service-electrical-repair-800w.webp 800w, /images/service-electrical-repair-1200w.webp 1200w, /images/service-electrical-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "electrical-installation": {
+        "src": "/images/service-electrical-installation.webp",
+        "srcset": "/images/service-electrical-installation-400w.webp 400w, /images/service-electrical-installation-800w.webp 800w, /images/service-electrical-installation-1200w.webp 1200w, /images/service-electrical-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "lighting-services": {
+        "src": "/images/service-lighting-services.webp",
+        "srcset": "/images/service-lighting-services-400w.webp 400w, /images/service-lighting-services-800w.webp 800w, /images/service-lighting-services-1200w.webp 1200w, /images/service-lighting-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "electrical-panel-services": {
+        "src": "/images/service-electrical-panel-services.webp",
+        "srcset": "/images/service-electrical-panel-services-400w.webp 400w, /images/service-electrical-panel-services-800w.webp 800w, /images/service-electrical-panel-services-1200w.webp 1200w, /images/service-electrical-panel-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-electrical-services": {
+        "src": "/images/service-commercial-electrical-services.webp",
+        "srcset": "/images/service-commercial-electrical-services-400w.webp 400w, /images/service-commercial-electrical-services-800w.webp 800w, /images/service-commercial-electrical-services-1200w.webp 1200w, /images/service-commercial-electrical-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "generator-services": {
+        "src": "/images/service-generator-services.webp",
+        "srcset": "/images/service-generator-services-400w.webp 400w, /images/service-generator-services-800w.webp 800w, /images/service-generator-services-1200w.webp 1200w, /images/service-generator-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
